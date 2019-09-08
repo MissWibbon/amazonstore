@@ -20,10 +20,12 @@ connection.connect(function(err) {
   afterConnection();
 });
 
-function afterConnection() {
+var items = function afterConnection() {
   connection.query("SELECT * FROM items", function(err, res) {
     if (err) throw err;
     console.log(res);
     connection.end();
   });
-}
+};
+console.log(items);
+$('.collection-item').innerHTML(afterConnection());
