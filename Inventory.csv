@@ -1,0 +1,11 @@
+item_id,product_name,department_name,price,stock_quantity
+1,Nickelback Cd,music,0.25,250
+2,Tampons,toiletries,4.55,250
+3,Star Wars Figurine,toys,2,20
+4,Peanut Butter,food,3.45,50
+5,Spaghettios,food,2.5,50
+6,Sunglasses,accessories,14.6,250
+7,Bicycle,outdoor,350.99,80
+8,MAGA Hat,accessories,0.25,250
+9,Pocket Knifte,outdoor,20.95,60
+10,Dog Food,food,18.99,90
